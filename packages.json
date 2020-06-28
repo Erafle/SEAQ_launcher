@@ -3,8 +3,8 @@
   "packages" : [
     {
       "title" : null,
-      "name" : "SeaPonyCon Quantum",
-      "version" : "2020-06-27-17-17-20",
+      "name" : "SEAPonyCon Quantum",
+      "version" : "2020-06-28-15-15-07",
       "location" : "seaponycon-quantum.json",
       "priority" : 0
     }
