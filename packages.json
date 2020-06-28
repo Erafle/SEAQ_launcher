@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : null,
+      "name" : "SEAPonyCon Quantum",
+      "version" : "2020-06-28-16-18-19",
+      "location" : "seaponycon-quantum.json",
+      "priority" : 0
+    }
+  ]
+}
