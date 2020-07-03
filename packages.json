@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : null,
+      "name" : "The Medium",
+      "version" : "2020-07-03-11-43-41",
+      "location" : "the-medium.json",
+      "priority" : 0
+    }
+  ]
+}
