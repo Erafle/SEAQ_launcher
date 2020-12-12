@@ -1,0 +1,327 @@
+{
+    "images":
+    {
+        
+        "panel":
+        {
+            "image" : "seaimages:textures/sidepanel.png",
+            "posX" : 25,
+            "posY" : 0,
+            "width" : 140,
+            "height" : 720,
+            "alignment" : "top_left"
+        },
+
+        "title":
+        {
+            "image" : "seaimages:textures/themedium.png",
+            "posX" : 45,
+            "posY" : 25,
+            "width" : 100,
+            "height" : 42,
+            "alignment" : "top_left"
+        },
+
+        "crosshoe":
+        {
+            "image" : "seaimages:textures/mono.png",
+            "posX" : 60,
+            "posY" : 210,
+            "width" : 70,
+            "height" : 18,
+            "alignment" : "top_left"
+        }
+
+    },
+
+    "buttons":
+    {
+
+        "aboutus":
+        {
+            "text" : " ",
+            "posX" : 60,
+            "posY" : 210,
+            "width" : 70,
+            "height" : 18,
+            "alignment" : top_left,
+            "texture" : "seaimages:textures/alpha.png",
+            "normalTextColor" : 0,
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://SEAPonyCon.com"
+            }
+        },
+
+        "aboutthemedium":
+        {
+            "text" : " ",
+            "posX" : 45,
+            "posY" : 25,
+            "width" : 100,
+            "height" : 42,
+            "alignment" : top_left,
+            "texture" : "seaimages:textures/alpha.png",
+            "normalTextColor" : 0,
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://themedium.SEAPonyCon.com"
+            }
+        },
+
+        "connect to server":
+        {
+            "text" : "Enter The Medium",
+            "posX" : 40,
+            "posY" : 75,
+            "width" : 110,
+            "height" : 15,
+            "alignment" : top_left,
+            "texture" : "seaimages:textures/buttons/buttontexture.png",
+            "normalTextColor" : 0,
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "action" :
+            {
+                "type" : "connectToServer",
+                "ip" : "TheMedium.SEAPonyCon.com"
+            }
+        },
+    
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 40,
+            "posY" : 92,
+            "width" : 110,
+            "height" : 15,
+            "texture" : "seaimages:textures/buttons/buttontexture.png",
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "alignment" : top_left,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 40,
+            "posY" : 109,
+            "width" : 110,
+            "height" : 15,
+            "texture" : "seaimages:textures/buttons/buttontexture.png",
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "alignment" : top_left,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 40,
+            "posY" : 126,
+            "width" : 54,
+            "height" : 15,
+            "texture" : "seaimages:textures/buttons/buttontexture.png",
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "alignment" : top_left,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 96,
+            "posY" : 126,
+            "width" : 54,
+            "height" : 15,
+            "texture" : "seaimages:textures/buttons/buttontexture.png",
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "alignment" : top_left,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "discord":
+        {
+            "text" : " ",
+            "posX" : 40,
+            "posY" : 143,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "seaimages:textures/buttons/discord.png",
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "alignment" : top_left,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/0R8vzWSjOknvKvOP"
+            }
+        },
+
+        "twitter":
+        {
+            "text" : " ",
+            "posX" : 62,
+            "posY" : 143,
+            "width" : 21,
+            "height" : 20,
+            "texture" : "seaimages:textures/buttons/twitter.png",
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "alignment" : top_left,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://twitter.com/SEAPonyCon"
+            }
+        },
+
+        "Facebook":
+        {
+            "text" : " ",
+            "posX" : 85,
+            "posY" : 143,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "seaimages:textures/buttons/facebook.png",
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "alignment" : top_left,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://facebook.com/SEAPonyCon"
+            }
+        },
+
+        "Website":
+        {
+            "text" : "  ",
+            "posX" : 107,
+            "posY" : 143,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "seaimages:textures/buttons/spc.png",
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "alignment" : top_left,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://SEAPonyCon.com/"
+            }
+        },
+
+        "language":
+        {
+            "text" : "",
+            "posX" : 130,
+            "posY" : 143,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : top_left,
+            "texture" : "seaimages:textures/lang.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 40,
+            "posY" : 165,
+            "width" : 110,
+            "height" : 15,
+            "texture" : "seaimages:textures/buttons/buttontexture.png",
+            "shadow" : false,
+            "normalTextColor" : 0,
+            "alignment" : top_left,
+            "action" :
+            {
+                "type" : "quit"
+            }
+        }
+},
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB.",
+            "hoverText" : "Do not redistribute!",
+            "posX" : -120,
+            "posY" : -36,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+
+        "versioning":
+        {
+            "text" : "The Medium v1.3",
+            "hoverText" : "'Divisoria', December 2020",
+            "posX" : -170,
+            "posY" : -55,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+
+        "fml":
+        {
+            "text" : "",
+            "posX" : -170,
+            "posY" : -45,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+
+    "other":
+    {
+
+      "background":
+    {
+        "image" : "seaimages:textures/steppes.png",
+        "mode" : "stretch",
+        "slideshow":
+        {
+                "images" : ["seaimages:textures/anima/frame-0.jpg","seaimages:textures/anima/frame-1.jpg","seaimages:textures/anima/frame-2.jpg","seaimages:textures/anima/frame-3.jpg","seaimages:textures/anima/frame-4.jpg","seaimages:textures/anima/frame-5.jpg","seaimages:textures/anima/frame-6.jpg","seaimages:textures/anima/frame-7.jpg","seaimages:textures/anima/frame-8.jpg","seaimages:textures/anima/frame-9.jpg","seaimages:textures/anima/frame-10.jpg","seaimages:textures/anima/frame-11.jpg","seaimages:textures/anima/frame-12.jpg","seaimages:textures/anima/frame-13.jpg","seaimages:textures/anima/frame-14.jpg","seaimages:textures/anima/frame-15.jpg","seaimages:textures/anima/frame-16.jpg","seaimages:textures/anima/frame-17.jpg","seaimages:textures/anima/frame-18.jpg","seaimages:textures/anima/frame-19.jpg","seaimages:textures/anima/frame-20.jpg","seaimages:textures/anima/frame-21.jpg","seaimages:textures/anima/frame-22.jpg","seaimages:textures/anima/frame-23.jpg","seaimages:textures/anima/frame-24.jpg","seaimages:textures/anima/frame-25.jpg","seaimages:textures/anima/frame-26.jpg","seaimages:textures/anima/frame-27.jpg","seaimages:textures/anima/frame-28.jpg","seaimages:textures/anima/frame-29.jpg","seaimages:textures/anima/frame-30.jpg","seaimages:textures/anima/frame-31.jpg","seaimages:textures/anima/frame-32.jpg","seaimages:textures/anima/frame-33.jpg","seaimages:textures/anima/frame-34.jpg","seaimages:textures/anima/frame-35.jpg","seaimages:textures/anima/frame-36.jpg","seaimages:textures/anima/frame-37.jpg","seaimages:textures/anima/frame-38.jpg","seaimages:textures/anima/frame-39.jpg","seaimages:textures/anima/frame-40.jpg","seaimages:textures/anima/frame-41.jpg","seaimages:textures/anima/frame-42.jpg","seaimages:textures/anima/frame-43.jpg","seaimages:textures/anima/frame-44.jpg","seaimages:textures/anima/frame-45.jpg","seaimages:textures/anima/frame-46.jpg","seaimages:textures/anima/frame-47.jpg","seaimages:textures/anima/frame-48.jpg","seaimages:textures/anima/frame-49.jpg","seaimages:textures/anima/frame-50.jpg","seaimages:textures/anima/frame-51.jpg","seaimages:textures/anima/frame-52.jpg","seaimages:textures/anima/frame-53.jpg","seaimages:textures/anima/frame-54.jpg","seaimages:textures/anima/frame-55.jpg","seaimages:textures/anima/frame-56.jpg","seaimages:textures/anima/frame-57.jpg","seaimages:textures/anima/frame-58.jpg","seaimages:textures/anima/frame-59.jpg","seaimages:textures/anima/frame-60.jpg","seaimages:textures/anima/frame-61.jpg","seaimages:textures/anima/frame-62.jpg","seaimages:textures/anima/frame-63.jpg","seaimages:textures/anima/frame-64.jpg","seaimages:textures/anima/frame-65.jpg","seaimages:textures/anima/frame-66.jpg","seaimages:textures/anima/frame-67.jpg","seaimages:textures/anima/frame-68.jpg","seaimages:textures/anima/frame-69.jpg","seaimages:textures/anima/frame-70.jpg","seaimages:textures/anima/frame-71.jpg","seaimages:textures/anima/frame-72.jpg","seaimages:textures/anima/frame-73.jpg","seaimages:textures/anima/frame-74.jpg","seaimages:textures/anima/frame-75.jpg","seaimages:textures/anima/frame-76.jpg","seaimages:textures/anima/frame-77.jpg","seaimages:textures/anima/frame-78.jpg","seaimages:textures/anima/frame-79.jpg","seaimages:textures/anima/frame-80.jpg","seaimages:textures/anima/frame-81.jpg","seaimages:textures/anima/frame-82.jpg","seaimages:textures/anima/frame-83.jpg","seaimages:textures/anima/frame-84.jpg","seaimages:textures/anima/frame-85.jpg","seaimages:textures/anima/frame-86.jpg","seaimages:textures/anima/frame-87.jpg","seaimages:textures/anima/frame-88.jpg","seaimages:textures/anima/frame-89.jpg","seaimages:textures/anima/frame-90.jpg","seaimages:textures/anima/frame-91.jpg","seaimages:textures/anima/frame-92.jpg","seaimages:textures/anima/frame-93.jpg","seaimages:textures/anima/frame-94.jpg","seaimages:textures/anima/frame-95.jpg","seaimages:textures/anima/frame-96.jpg","seaimages:textures/anima/frame-97.jpg","seaimages:textures/anima/frame-98.jpg","seaimages:textures/anima/frame-99.jpg","seaimages:textures/anima/frame-100.jpg","seaimages:textures/anima/frame-101.jpg","seaimages:textures/anima/frame-102.jpg","seaimages:textures/anima/frame-103.jpg","seaimages:textures/anima/frame-104.jpg","seaimages:textures/anima/frame-105.jpg","seaimages:textures/anima/frame-106.jpg","seaimages:textures/anima/frame-107.jpg","seaimages:textures/anima/frame-108.jpg","seaimages:textures/anima/frame-109.jpg","seaimages:textures/anima/frame-110.jpg","seaimages:textures/anima/frame-111.jpg","seaimages:textures/anima/frame-112.jpg","seaimages:textures/anima/frame-113.jpg","seaimages:textures/anima/frame-114.jpg","seaimages:textures/anima/frame-115.jpg","seaimages:textures/anima/frame-116.jpg","seaimages:textures/anima/frame-117.jpg","seaimages:textures/anima/frame-118.jpg","seaimages:textures/anima/frame-119.jpg","seaimages:textures/anima/frame-120.jpg","seaimages:textures/anima/frame-121.jpg","seaimages:textures/anima/frame-122.jpg","seaimages:textures/anima/frame-123.jpg","seaimages:textures/anima/frame-124.jpg","seaimages:textures/anima/frame-125.jpg","seaimages:textures/anima/frame-126.jpg","seaimages:textures/anima/frame-127.jpg","seaimages:textures/anima/frame-128.jpg","seaimages:textures/anima/frame-129.jpg","seaimages:textures/anima/frame-130.jpg","seaimages:textures/anima/frame-131.jpg","seaimages:textures/anima/frame-132.jpg","seaimages:textures/anima/frame-133.jpg","seaimages:textures/anima/frame-134.jpg","seaimages:textures/anima/frame-135.jpg","seaimages:textures/anima/frame-136.jpg","seaimages:textures/anima/frame-137.jpg","seaimages:textures/anima/frame-138.jpg","seaimages:textures/anima/frame-139.jpg","seaimages:textures/anima/frame-140.jpg","seaimages:textures/anima/frame-141.jpg","seaimages:textures/anima/frame-142.jpg","seaimages:textures/anima/frame-143.jpg","seaimages:textures/anima/frame-144.jpg","seaimages:textures/anima/frame-145.jpg","seaimages:textures/anima/frame-146.jpg","seaimages:textures/anima/frame-147.jpg","seaimages:textures/anima/frame-148.jpg","seaimages:textures/anima/frame-149.jpg","seaimages:textures/anima/frame-150.jpg","seaimages:textures/anima/frame-151.jpg","seaimages:textures/anima/frame-152.jpg","seaimages:textures/anima/frame-153.jpg","seaimages:textures/anima/frame-154.jpg","seaimages:textures/anima/frame-155.jpg","seaimages:textures/anima/frame-156.jpg","seaimages:textures/anima/frame-157.jpg","seaimages:textures/anima/frame-158.jpg","seaimages:textures/anima/frame-159.jpg","seaimages:textures/anima/frame-160.jpg","seaimages:textures/anima/frame-161.jpg","seaimages:textures/anima/frame-162.jpg","seaimages:textures/anima/frame-163.jpg","seaimages:textures/anima/frame-164.jpg","seaimages:textures/anima/frame-165.jpg","seaimages:textures/anima/frame-166.jpg","seaimages:textures/anima/frame-167.jpg","seaimages:textures/anima/frame-168.jpg","seaimages:textures/anima/frame-169.jpg","seaimages:textures/anima/frame-170.jpg","seaimages:textures/anima/frame-171.jpg","seaimages:textures/anima/frame-172.jpg","seaimages:textures/anima/frame-173.jpg","seaimages:textures/anima/frame-174.jpg","seaimages:textures/anima/frame-175.jpg","seaimages:textures/anima/frame-176.jpg","seaimages:textures/anima/frame-177.jpg","seaimages:textures/anima/frame-178.jpg","seaimages:textures/anima/frame-179.jpg","seaimages:textures/anima/frame-180.jpg","seaimages:textures/anima/frame-181.jpg","seaimages:textures/anima/frame-182.jpg","seaimages:textures/anima/frame-183.jpg","seaimages:textures/anima/frame-184.jpg","seaimages:textures/anima/frame-185.jpg","seaimages:textures/anima/frame-186.jpg","seaimages:textures/anima/frame-187.jpg","seaimages:textures/anima/frame-188.jpg","seaimages:textures/anima/frame-189.jpg","seaimages:textures/anima/frame-190.jpg","seaimages:textures/anima/frame-191.jpg","seaimages:textures/anima/frame-192.jpg","seaimages:textures/anima/frame-193.jpg","seaimages:textures/anima/frame-194.jpg","seaimages:textures/anima/frame-195.jpg","seaimages:textures/anima/frame-196.jpg","seaimages:textures/anima/frame-197.jpg","seaimages:textures/anima/frame-198.jpg","seaimages:textures/anima/frame-199.jpg","seaimages:textures/anima/frame-200.jpg","seaimages:textures/anima/frame-201.jpg","seaimages:textures/anima/frame-202.jpg","seaimages:textures/anima/frame-203.jpg","seaimages:textures/anima/frame-204.jpg","seaimages:textures/anima/frame-205.jpg","seaimages:textures/anima/frame-206.jpg","seaimages:textures/anima/frame-207.jpg","seaimages:textures/anima/frame-208.jpg","seaimages:textures/anima/frame-209.jpg","seaimages:textures/anima/frame-210.jpg","seaimages:textures/anima/frame-211.jpg","seaimages:textures/anima/frame-212.jpg","seaimages:textures/anima/frame-213.jpg","seaimages:textures/anima/frame-214.jpg","seaimages:textures/anima/frame-215.jpg","seaimages:textures/anima/frame-216.jpg","seaimages:textures/anima/frame-217.jpg","seaimages:textures/anima/frame-218.jpg","seaimages:textures/anima/frame-219.jpg","seaimages:textures/anima/frame-220.jpg","seaimages:textures/anima/frame-221.jpg","seaimages:textures/anima/frame-222.jpg","seaimages:textures/anima/frame-223.jpg","seaimages:textures/anima/frame-224.jpg","seaimages:textures/anima/frame-225.jpg","seaimages:textures/anima/frame-226.jpg","seaimages:textures/anima/frame-227.jpg","seaimages:textures/anima/frame-228.jpg","seaimages:textures/anima/frame-229.jpg","seaimages:textures/anima/frame-230.jpg","seaimages:textures/anima/frame-231.jpg","seaimages:textures/anima/frame-232.jpg","seaimages:textures/anima/frame-233.jpg","seaimages:textures/anima/frame-234.jpg","seaimages:textures/anima/frame-235.jpg","seaimages:textures/anima/frame-236.jpg","seaimages:textures/anima/frame-237.jpg","seaimages:textures/anima/frame-238.jpg","seaimages:textures/anima/frame-239.jpg","seaimages:textures/anima/frame-240.jpg","seaimages:textures/anima/frame-241.jpg","seaimages:textures/anima/frame-242.jpg","seaimages:textures/anima/frame-243.jpg","seaimages:textures/anima/frame-244.jpg","seaimages:textures/anima/frame-245.jpg","seaimages:textures/anima/frame-246.jpg","seaimages:textures/anima/frame-247.jpg","seaimages:textures/anima/frame-248.jpg","seaimages:textures/anima/frame-249.jpg","seaimages:textures/anima/frame-250.jpg","seaimages:textures/anima/frame-251.jpg","seaimages:textures/anima/frame-252.jpg","seaimages:textures/anima/frame-253.jpg","seaimages:textures/anima/frame-254.jpg","seaimages:textures/anima/frame-255.jpg","seaimages:textures/anima/frame-256.jpg","seaimages:textures/anima/frame-257.jpg","seaimages:textures/anima/frame-258.jpg","seaimages:textures/anima/frame-259.jpg","seaimages:textures/anima/frame-260.jpg","seaimages:textures/anima/frame-261.jpg","seaimages:textures/anima/frame-262.jpg","seaimages:textures/anima/frame-263.jpg","seaimages:textures/anima/frame-264.jpg","seaimages:textures/anima/frame-265.jpg","seaimages:textures/anima/frame-266.jpg","seaimages:textures/anima/frame-267.jpg","seaimages:textures/anima/frame-268.jpg","seaimages:textures/anima/frame-269.jpg","seaimages:textures/anima/frame-270.jpg","seaimages:textures/anima/frame-271.jpg","seaimages:textures/anima/frame-272.jpg","seaimages:textures/anima/frame-273.jpg","seaimages:textures/anima/frame-274.jpg","seaimages:textures/anima/frame-275.jpg","seaimages:textures/anima/frame-276.jpg","seaimages:textures/anima/frame-277.jpg","seaimages:textures/anima/frame-278.jpg","seaimages:textures/anima/frame-279.jpg","seaimages:textures/anima/frame-280.jpg","seaimages:textures/anima/frame-281.jpg","seaimages:textures/anima/frame-282.jpg","seaimages:textures/anima/frame-283.jpg","seaimages:textures/anima/frame-284.jpg","seaimages:textures/anima/frame-285.jpg","seaimages:textures/anima/frame-286.jpg","seaimages:textures/anima/frame-287.jpg","seaimages:textures/anima/frame-288.jpg","seaimages:textures/anima/frame-289.jpg","seaimages:textures/anima/frame-290.jpg","seaimages:textures/anima/frame-291.jpg","seaimages:textures/anima/frame-292.jpg","seaimages:textures/anima/frame-293.jpg","seaimages:textures/anima/frame-294.jpg","seaimages:textures/anima/frame-295.jpg","seaimages:textures/anima/frame-296.jpg","seaimages:textures/anima/frame-297.jpg","seaimages:textures/anima/frame-298.jpg","seaimages:textures/anima/frame-299.jpg","seaimages:textures/anima/frame-300.jpg","seaimages:textures/anima/frame-301.jpg","seaimages:textures/anima/frame-302.jpg","seaimages:textures/anima/frame-303.jpg","seaimages:textures/anima/frame-304.jpg","seaimages:textures/anima/frame-305.jpg","seaimages:textures/anima/frame-306.jpg","seaimages:textures/anima/frame-307.jpg","seaimages:textures/anima/frame-308.jpg","seaimages:textures/anima/frame-309.jpg","seaimages:textures/anima/frame-310.jpg","seaimages:textures/anima/frame-311.jpg","seaimages:textures/anima/frame-312.jpg","seaimages:textures/anima/frame-313.jpg","seaimages:textures/anima/frame-314.jpg","seaimages:textures/anima/frame-315.jpg","seaimages:textures/anima/frame-316.jpg","seaimages:textures/anima/frame-317.jpg","seaimages:textures/anima/frame-318.jpg","seaimages:textures/anima/frame-319.jpg","seaimages:textures/anima/frame-320.jpg","seaimages:textures/anima/frame-321.jpg","seaimages:textures/anima/frame-322.jpg","seaimages:textures/anima/frame-323.jpg","seaimages:textures/anima/frame-324.jpg","seaimages:textures/anima/frame-325.jpg","seaimages:textures/anima/frame-326.jpg","seaimages:textures/anima/frame-327.jpg","seaimages:textures/anima/frame-328.jpg","seaimages:textures/anima/frame-329.jpg","seaimages:textures/anima/frame-330.jpg","seaimages:textures/anima/frame-331.jpg","seaimages:textures/anima/frame-332.jpg","seaimages:textures/anima/frame-333.jpg","seaimages:textures/anima/frame-334.jpg","seaimages:textures/anima/frame-335.jpg","seaimages:textures/anima/frame-336.jpg","seaimages:textures/anima/frame-337.jpg","seaimages:textures/anima/frame-338.jpg","seaimages:textures/anima/frame-339.jpg","seaimages:textures/anima/frame-340.jpg","seaimages:textures/anima/frame-341.jpg","seaimages:textures/anima/frame-342.jpg","seaimages:textures/anima/frame-343.jpg","seaimages:textures/anima/frame-344.jpg","seaimages:textures/anima/frame-345.jpg","seaimages:textures/anima/frame-346.jpg","seaimages:textures/anima/frame-347.jpg","seaimages:textures/anima/frame-348.jpg","seaimages:textures/anima/frame-349.jpg","seaimages:textures/anima/frame-350.jpg","seaimages:textures/anima/frame-351.jpg","seaimages:textures/anima/frame-352.jpg","seaimages:textures/anima/frame-353.jpg","seaimages:textures/anima/frame-354.jpg","seaimages:textures/anima/frame-355.jpg","seaimages:textures/anima/frame-356.jpg","seaimages:textures/anima/frame-357.jpg","seaimages:textures/anima/frame-358.jpg","seaimages:textures/anima/frame-359.jpg","seaimages:textures/anima/frame-360.jpg","seaimages:textures/anima/frame-361.jpg","seaimages:textures/anima/frame-362.jpg","seaimages:textures/anima/frame-363.jpg","seaimages:textures/anima/frame-364.jpg","seaimages:textures/anima/frame-365.jpg","seaimages:textures/anima/frame-366.jpg","seaimages:textures/anima/frame-367.jpg","seaimages:textures/anima/frame-368.jpg","seaimages:textures/anima/frame-369.jpg","seaimages:textures/anima/frame-370.jpg","seaimages:textures/anima/frame-371.jpg","seaimages:textures/anima/frame-372.jpg","seaimages:textures/anima/frame-373.jpg","seaimages:textures/anima/frame-374.jpg","seaimages:textures/anima/frame-375.jpg","seaimages:textures/anima/frame-376.jpg","seaimages:textures/anima/frame-377.jpg","seaimages:textures/anima/frame-378.jpg","seaimages:textures/anima/frame-379.jpg","seaimages:textures/anima/frame-380.jpg","seaimages:textures/anima/frame-381.jpg","seaimages:textures/anima/frame-382.jpg","seaimages:textures/anima/frame-383.jpg","seaimages:textures/anima/frame-384.jpg","seaimages:textures/anima/frame-385.jpg","seaimages:textures/anima/frame-386.jpg","seaimages:textures/anima/frame-387.jpg","seaimages:textures/anima/frame-388.jpg","seaimages:textures/anima/frame-389.jpg","seaimages:textures/anima/frame-390.jpg","seaimages:textures/anima/frame-391.jpg","seaimages:textures/anima/frame-392.jpg","seaimages:textures/anima/frame-393.jpg","seaimages:textures/anima/frame-394.jpg","seaimages:textures/anima/frame-395.jpg","seaimages:textures/anima/frame-396.jpg","seaimages:textures/anima/frame-397.jpg","seaimages:textures/anima/frame-398.jpg","seaimages:textures/anima/frame-399.jpg","seaimages:textures/anima/frame-400.jpg","seaimages:textures/anima/frame-401.jpg","seaimages:textures/anima/frame-402.jpg","seaimages:textures/anima/frame-403.jpg","seaimages:textures/anima/frame-404.jpg","seaimages:textures/anima/frame-405.jpg","seaimages:textures/anima/frame-406.jpg","seaimages:textures/anima/frame-407.jpg","seaimages:textures/anima/frame-408.jpg","seaimages:textures/anima/frame-409.jpg","seaimages:textures/anima/frame-410.jpg","seaimages:textures/anima/frame-411.jpg","seaimages:textures/anima/frame-412.jpg","seaimages:textures/anima/frame-413.jpg","seaimages:textures/anima/frame-414.jpg","seaimages:textures/anima/frame-415.jpg","seaimages:textures/anima/frame-416.jpg","seaimages:textures/anima/frame-417.jpg","seaimages:textures/anima/frame-418.jpg","seaimages:textures/anima/frame-419.jpg","seaimages:textures/anima/frame-420.jpg","seaimages:textures/anima/frame-421.jpg","seaimages:textures/anima/frame-422.jpg","seaimages:textures/anima/frame-423.jpg","seaimages:textures/anima/frame-424.jpg","seaimages:textures/anima/frame-425.jpg","seaimages:textures/anima/frame-426.jpg","seaimages:textures/anima/frame-427.jpg","seaimages:textures/anima/frame-428.jpg","seaimages:textures/anima/frame-429.jpg","seaimages:textures/anima/frame-430.jpg","seaimages:textures/anima/frame-431.jpg","seaimages:textures/anima/frame-432.jpg","seaimages:textures/anima/frame-433.jpg","seaimages:textures/anima/frame-434.jpg","seaimages:textures/anima/frame-435.jpg","seaimages:textures/anima/frame-436.jpg","seaimages:textures/anima/frame-437.jpg","seaimages:textures/anima/frame-438.jpg","seaimages:textures/anima/frame-439.jpg","seaimages:textures/anima/frame-440.jpg","seaimages:textures/anima/frame-441.jpg","seaimages:textures/anima/frame-442.jpg","seaimages:textures/anima/frame-443.jpg","seaimages:textures/anima/frame-444.jpg","seaimages:textures/anima/frame-445.jpg","seaimages:textures/anima/frame-446.jpg","seaimages:textures/anima/frame-447.jpg","seaimages:textures/anima/frame-448.jpg","seaimages:textures/anima/frame-449.jpg","seaimages:textures/anima/frame-450.jpg","seaimages:textures/anima/frame-451.jpg","seaimages:textures/anima/frame-452.jpg","seaimages:textures/anima/frame-453.jpg","seaimages:textures/anima/frame-454.jpg","seaimages:textures/anima/frame-455.jpg","seaimages:textures/anima/frame-456.jpg","seaimages:textures/anima/frame-457.jpg","seaimages:textures/anima/frame-458.jpg","seaimages:textures/anima/frame-459.jpg","seaimages:textures/anima/frame-460.jpg","seaimages:textures/anima/frame-461.jpg","seaimages:textures/anima/frame-462.jpg","seaimages:textures/anima/frame-463.jpg","seaimages:textures/anima/frame-464.jpg","seaimages:textures/anima/frame-465.jpg","seaimages:textures/anima/frame-466.jpg","seaimages:textures/anima/frame-467.jpg","seaimages:textures/anima/frame-468.jpg","seaimages:textures/anima/frame-469.jpg","seaimages:textures/anima/frame-470.jpg","seaimages:textures/anima/frame-471.jpg","seaimages:textures/anima/frame-472.jpg","seaimages:textures/anima/frame-473.jpg","seaimages:textures/anima/frame-474.jpg","seaimages:textures/anima/frame-475.jpg","seaimages:textures/anima/frame-476.jpg","seaimages:textures/anima/frame-477.jpg","seaimages:textures/anima/frame-478.jpg","seaimages:textures/anima/frame-479.jpg","seaimages:textures/anima/frame-480.jpg","seaimages:textures/anima/frame-481.jpg","seaimages:textures/anima/frame-482.jpg","seaimages:textures/anima/frame-483.jpg","seaimages:textures/anima/frame-484.jpg","seaimages:textures/anima/frame-485.jpg","seaimages:textures/anima/frame-486.jpg","seaimages:textures/anima/frame-487.jpg","seaimages:textures/anima/frame-488.jpg","seaimages:textures/anima/frame-489.jpg","seaimages:textures/anima/frame-490.jpg","seaimages:textures/anima/frame-491.jpg","seaimages:textures/anima/frame-492.jpg","seaimages:textures/anima/frame-493.jpg","seaimages:textures/anima/frame-494.jpg","seaimages:textures/anima/frame-495.jpg","seaimages:textures/anima/frame-496.jpg","seaimages:textures/anima/frame-497.jpg","seaimages:textures/anima/frame-498.jpg","seaimages:textures/anima/frame-499.jpg","seaimages:textures/anima/frame-500.jpg","seaimages:textures/anima/frame-501.jpg","seaimages:textures/anima/frame-502.jpg","seaimages:textures/anima/frame-503.jpg","seaimages:textures/anima/frame-504.jpg","seaimages:textures/anima/frame-505.jpg","seaimages:textures/anima/frame-506.jpg","seaimages:textures/anima/frame-507.jpg","seaimages:textures/anima/frame-508.jpg","seaimages:textures/anima/frame-509.jpg","seaimages:textures/anima/frame-510.jpg","seaimages:textures/anima/frame-511.jpg","seaimages:textures/anima/frame-512.jpg","seaimages:textures/anima/frame-513.jpg","seaimages:textures/anima/frame-514.jpg","seaimages:textures/anima/frame-515.jpg","seaimages:textures/anima/frame-516.jpg","seaimages:textures/anima/frame-517.jpg","seaimages:textures/anima/frame-518.jpg","seaimages:textures/anima/frame-519.jpg","seaimages:textures/anima/frame-520.jpg","seaimages:textures/anima/frame-521.jpg","seaimages:textures/anima/frame-522.jpg","seaimages:textures/anima/frame-523.jpg","seaimages:textures/anima/frame-524.jpg","seaimages:textures/anima/frame-525.jpg","seaimages:textures/anima/frame-526.jpg","seaimages:textures/anima/frame-527.jpg","seaimages:textures/anima/frame-528.jpg","seaimages:textures/anima/frame-529.jpg","seaimages:textures/anima/frame-530.jpg","seaimages:textures/anima/frame-531.jpg","seaimages:textures/anima/frame-532.jpg","seaimages:textures/anima/frame-533.jpg","seaimages:textures/anima/frame-534.jpg","seaimages:textures/anima/frame-535.jpg","seaimages:textures/anima/frame-536.jpg","seaimages:textures/anima/frame-537.jpg","seaimages:textures/anima/frame-538.jpg","seaimages:textures/anima/frame-539.jpg","seaimages:textures/anima/frame-540.jpg","seaimages:textures/anima/frame-541.jpg","seaimages:textures/anima/frame-542.jpg","seaimages:textures/anima/frame-543.jpg","seaimages:textures/anima/frame-544.jpg","seaimages:textures/anima/frame-545.jpg","seaimages:textures/anima/frame-546.jpg","seaimages:textures/anima/frame-547.jpg","seaimages:textures/anima/frame-548.jpg","seaimages:textures/anima/frame-549.jpg","seaimages:textures/anima/frame-550.jpg","seaimages:textures/anima/frame-551.jpg","seaimages:textures/anima/frame-552.jpg","seaimages:textures/anima/frame-553.jpg","seaimages:textures/anima/frame-554.jpg","seaimages:textures/anima/frame-555.jpg","seaimages:textures/anima/frame-556.jpg","seaimages:textures/anima/frame-557.jpg","seaimages:textures/anima/frame-558.jpg","seaimages:textures/anima/frame-559.jpg","seaimages:textures/anima/frame-560.jpg","seaimages:textures/anima/frame-561.jpg","seaimages:textures/anima/frame-562.jpg","seaimages:textures/anima/frame-563.jpg","seaimages:textures/anima/frame-564.jpg","seaimages:textures/anima/frame-565.jpg","seaimages:textures/anima/frame-566.jpg","seaimages:textures/anima/frame-567.jpg","seaimages:textures/anima/frame-568.jpg","seaimages:textures/anima/frame-569.jpg","seaimages:textures/anima/frame-570.jpg","seaimages:textures/anima/frame-571.jpg","seaimages:textures/anima/frame-572.jpg","seaimages:textures/anima/frame-573.jpg","seaimages:textures/anima/frame-574.jpg","seaimages:textures/anima/frame-575.jpg","seaimages:textures/anima/frame-576.jpg","seaimages:textures/anima/frame-577.jpg","seaimages:textures/anima/frame-578.jpg","seaimages:textures/anima/frame-579.jpg","seaimages:textures/anima/frame-580.jpg","seaimages:textures/anima/frame-581.jpg","seaimages:textures/anima/frame-582.jpg","seaimages:textures/anima/frame-583.jpg","seaimages:textures/anima/frame-584.jpg","seaimages:textures/anima/frame-585.jpg","seaimages:textures/anima/frame-586.jpg","seaimages:textures/anima/frame-587.jpg","seaimages:textures/anima/frame-588.jpg","seaimages:textures/anima/frame-589.jpg","seaimages:textures/anima/frame-590.jpg","seaimages:textures/anima/frame-591.jpg","seaimages:textures/anima/frame-592.jpg","seaimages:textures/anima/frame-593.jpg","seaimages:textures/anima/frame-594.jpg","seaimages:textures/anima/frame-595.jpg","seaimages:textures/anima/frame-596.jpg","seaimages:textures/anima/frame-597.jpg","seaimages:textures/anima/frame-598.jpg","seaimages:textures/anima/frame-599.jpg","seaimages:textures/anima/frame-600.jpg","seaimages:textures/anima/frame-601.jpg","seaimages:textures/anima/frame-602.jpg","seaimages:textures/anima/frame-603.jpg","seaimages:textures/anima/frame-604.jpg","seaimages:textures/anima/frame-605.jpg","seaimages:textures/anima/frame-606.jpg","seaimages:textures/anima/frame-607.jpg","seaimages:textures/anima/frame-608.jpg","seaimages:textures/anima/frame-609.jpg","seaimages:textures/anima/frame-610.jpg","seaimages:textures/anima/frame-611.jpg","seaimages:textures/anima/frame-612.jpg","seaimages:textures/anima/frame-613.jpg","seaimages:textures/anima/frame-614.jpg","seaimages:textures/anima/frame-615.jpg","seaimages:textures/anima/frame-616.jpg","seaimages:textures/anima/frame-617.jpg","seaimages:textures/anima/frame-618.jpg","seaimages:textures/anima/frame-619.jpg","seaimages:textures/anima/frame-620.jpg","seaimages:textures/anima/frame-621.jpg","seaimages:textures/anima/frame-622.jpg","seaimages:textures/anima/frame-623.jpg","seaimages:textures/anima/frame-624.jpg","seaimages:textures/anima/frame-625.jpg","seaimages:textures/anima/frame-626.jpg","seaimages:textures/anima/frame-627.jpg"],
+                "displayDuration" : 1,
+                "fadeDuration" : 0
+            }
+        }
+    }
+}
